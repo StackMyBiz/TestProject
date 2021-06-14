@@ -1,0 +1,19 @@
+//GIVING DATA DYNAMICALLY AND TESTING VALUES
+
+@Test
+	public void init() throws InterruptedException {
+		
+		FormData1 formfill = PageFactory.initElements(driver, FormData1.class);
+		formfill.setName("saurav singh");
+		formfill.setEmail("Sauravsingh037@gmail.com");
+		
+		formfill.setComment("this is testing exercise");
+		
+		Thread.sleep(3000);
+		formfill.setSubmit( );
+		
+		Thread.sleep(3000);
+		
+	}
+
+}
